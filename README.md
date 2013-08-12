@@ -5,9 +5,9 @@ Nginx extended statistics patch for nginx 0.7.67. This patch add ability to chec
 
 Build this patch on Debian 7 Squeeze:
 =======
-Author: Alexander Rebrikov
+Author: Alexander Rebrikov at http://fastvps.ru/
 
-Build this patch on Debian 
+Building  patched nginx version on Debian Squeeze: 
 
 ```bash
 # Update repository content
