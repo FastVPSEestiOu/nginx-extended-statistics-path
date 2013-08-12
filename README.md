@@ -1,4 +1,4 @@
-nginx-extended-statistics-path
+nginx-extended-statistics-patch
 ==============================
 
 Nginx extended statistics patch for nginx 0.7.67. This patch add ability to check count and total size of requests to certain vhosts 
