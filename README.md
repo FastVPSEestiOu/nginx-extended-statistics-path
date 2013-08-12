@@ -38,7 +38,7 @@ cd nginx-$VERSION
 sed -i 's/\(Standards-Version: \).*/\13.8.0/g' debian/control 
 
 # make fullstats patch
-wget http://download.fastvps.ru/dist/nginx_stats.patch
+wget http://.../nginx_stats.patch
 patch -p1 < nginx_stats.patch
 
 # enable eval module http://www.grid.net.ru/nginx/eval.en.html 
