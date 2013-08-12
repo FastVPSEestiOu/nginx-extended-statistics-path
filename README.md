@@ -64,6 +64,7 @@ FAQ:
 
 1) Could you provide version for newest nginx release? Sorry, we can't. Please take a look on fork button.
 2) This patch is tested deeply? Yes, this patch work few years on 2 heavy loaded servers with thousands of vhosts without any problems.
+3) What is requests/active_time and traf? Requests is total count of requests served by nginx for certain vhosts. Active time is total time which nginx use for serving this vhosts. Traf - total traffic for this vhost.
 
 Optional, don't needed for you if u don't knew what is it
 
