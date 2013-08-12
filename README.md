@@ -60,7 +60,7 @@ client1.shared.ru			18			0				6355
 samedomain.com				22			2			8713
 ```
 
-Field in statistics:
+Fields in statistics:
 * Requests is total count of requests served by nginx for certain vhosts. 
 * Active time is total time which nginx use for serving this vhosts. I think, it's very strange metric, use with care. 
 * Traf is total traffic for this vhost.
