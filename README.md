@@ -60,6 +60,11 @@ client1.shared.ru			18			0				6355
 samedomain.com				22			2			8713
 ```
 
+FAQ:
+
+1) Could you provide version for newest nginx release? Sorry, we can't. Please take a look on fork button.
+2) This patch is tested deeply? Yes, this patch work few years on 2 heavy loaded servers with thousands of vhosts without any problems.
+
 Optional, don't needed for you if u don't knew what is it
 
 ```bash
