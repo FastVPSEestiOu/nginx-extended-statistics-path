@@ -60,7 +60,7 @@ client1.shared.ru			18			0				6355
 samedomain.com				22			2			8713
 ```
 
-# Optional, don't needed for you if u don't knew what is it
+Optional, don't needed for you if u don't knew what is it
 
 ```bash
 # Optional, don't needed for you if u don't knew what is it 
