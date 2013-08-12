@@ -4,6 +4,10 @@ nginx-extended-statistics-path
 Nginx extended statistics patch for nginx 0.7.67. This patch add ability to check count and total size of requests to certain vhosts 
 
 Build this patch on Debian 7 Squeeze:
+=======
+Author: Alexander Rebrikov
+
+Build this patch on Debian 
 
 ```bash
 # Update repository content
