@@ -52,10 +52,13 @@ location /nginx_status {
 } 
 ```
 
+
+```bash
 After that, you can see detailed statistics for every virtual host on this server
 vihost				requests		active_time(msec)		traf
 client1.shared.ru			18			0				6355
 samedomain.com				22			2			8713
+```
 
 # Optional, don't needed for you if u don't knew what is it
 
