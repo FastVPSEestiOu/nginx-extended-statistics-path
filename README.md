@@ -34,14 +34,14 @@ patch -p1 < nginx_stats.patch
 
 # Optional, don't needed for you if u don't knew what is it 
 # enable eval module http://www.grid.net.ru/nginx/eval.en.html 
-cd modules
-wget http://fastvps.googlecode.com/svn/trunk/packages/vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
-tar -xf vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
-rm -f vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
-cd ..
+#cd modules
+#wget http://fastvps.googlecode.com/svn/trunk/packages/vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
+#tar -xf vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
+#rm -f vkholodkov-nginx-eval-module-1.0.2-0-ge85e11e.tar.gz
+#cd ..
 
 # Now fully automated
-sed -i 's#--with-mail_ssl_module \\#--with-mail_ssl_module \\\n\t    --add-module=$(CURDIR)/modules/vkholodkov-nginx-eval-module-e85e11e \\#' debian/rules 
+#sed -i 's#--with-mail_ssl_module \\#--with-mail_ssl_module \\\n\t    --add-module=$(CURDIR)/modules/vkholodkov-nginx-eval-module-e85e11e \\#' debian/rules 
 
 # build nginx
 debuild -us -uc # -us unsigned source, -uc unsigned changes
